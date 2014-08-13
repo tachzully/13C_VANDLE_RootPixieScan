@@ -351,7 +351,7 @@ void TimingInformation::ReadTimingCalibration(void)
 {
     TimingCal timingcal;
     PathHolder* conf_path = new PathHolder();
-    string timeCalFileName = conf_path->GetFullPath("newtimingCal_5300_13C_oct14_1.txt"); 
+    string timeCalFileName = conf_path->GetFullPath("timingCal_5300_13C_oct14_1_diffToff.txt"); 
     delete conf_path;
 
     ifstream timingCalFile(timeCalFileName.c_str());
