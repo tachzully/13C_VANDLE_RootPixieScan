@@ -1,0 +1,3 @@
+//det    det    det   num   poly    low   cal val  cal val  cal val
+//loc   type    sub   cal  order  range     inter    slope     quad
+0	ge	clover_high  1     0          0       1   0
