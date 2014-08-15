@@ -240,10 +240,10 @@ double TimingInformation::CalcRecoilEnergy(const double &energy, const double &f
     */
 	
     //read in constants
-	double m1 = TimingInformation::GetConstant("alphaMass");	//masses in MeV/c^2
-	double m2 = TimingInformation::GetConstant("carbon13Mass");
-	double m3 = TimingInformation::GetConstant("neutronMass");
-	double m4 = TimingInformation::GetConstant("oxygen16Mass");
+	double m1 = TimingInformation::GetConstant("beamMass");	//masses in MeV/c^2
+	double m2 = TimingInformation::GetConstant("targetMass");
+	double m3 = TimingInformation::GetConstant("ejectMass");
+	double m4 = TimingInformation::GetConstant("recoilMass");
 	double Ebeam = TimingInformation::GetConstant("beamEnergy");	//beam energy in MeV
 
     //calculate needed quantities
