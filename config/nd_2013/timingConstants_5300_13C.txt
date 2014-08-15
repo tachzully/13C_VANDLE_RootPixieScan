@@ -3,16 +3,16 @@
 
 #Physical and Measured Constants
 
-#BEAM MASS: MeV/c^2
-3727.38 alphaMass
-#TARGET MASS:  MeV/c^2 (without mass of electrons)
+#BEAM MASS: Alpha MeV/c^2
+3727.38 beamMass
+#TARGET MASS: 13Carbon MeV/c^2 (without mass of electrons)
 #17692.301 fluorine19Mass
-12109.428 carbon13Mass
-#EJECTILE MASS:  MeV/c^2
-939.565560 neutronMass
-#RECOIL MASS: MeV/c^2 (without mass of electrons)
+12109.428 targetMass
+#EJECTILE MASS: Neutron MeV/c^2
+939.565560 ejectMass
+#RECOIL MASS: 16Oxygen MeV/c^2 (without mass of electrons)
 #20482.079 sodium22Mass
-14895.00 oxygen16Mass
+14895.00 recoilMass
 #Beam Energy MeV
 5.300 beamEnergy
 
